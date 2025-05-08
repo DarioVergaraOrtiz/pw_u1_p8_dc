@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/cuadricula.css">
+    <script src="/js/cuadricula.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <nav></nav>
+        <section>
+            <h1>Felicitaciones</h1>
+            <div class="grilla">
+                <label id="11" for="">1x1</label>
+                <label id="12" for="">1x2</label>
+                <label id="13" for="">1x3</label>
+                <label id="21" for="">2x1</label>
+                <label id="22" for="">2x2</label>
+                <label id="23" for="">2x3</label>
+                <label id="31" for="">3x1</label>
+                <label id="32" for="">3x2</label>
+                <label id="33" for="">3x3</label>
+            </div>
+            <div class="fila_columna">
+                <label class="label2" for="id_fila">Fila</label>
+                <input id="id_fila" type="number">
+
+                <label class="label2" for="id_columna">Columna</label>
+                <input id="id_columna" type="number">
+                <br>
+                <button class="cambiar" onclick="reemplazar()">VER</button>
+            </div>
+        </section>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
